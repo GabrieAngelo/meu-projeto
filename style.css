@@ -1,0 +1,17 @@
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: blue;
+}
+
+header {
+    background-color: #dddddd;
+    padding: 30px;
+    text-align: center;
+}
+
+SECTION {
+    background-color: #dddddd;
+    padding: 10px;
+    text-align: center;
+}
