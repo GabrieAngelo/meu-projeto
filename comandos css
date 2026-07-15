@@ -1,0 +1,4 @@
+gap :20px;
+->dar um espaço entro objetos justify-content: center;
+->alinha no centro justify-content: space-around;
+->distribui o espaço de forma uniforme
