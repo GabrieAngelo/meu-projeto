@@ -17,3 +17,23 @@ git push -u origin main
 esse é o passo a passo de como linkar o projeto da máquina, no git hub 
 
 
+
+
+fluxo para trabalhar no projeto
+ git clone
+↓
+git switch develop
+↓
+git pull
+↓
+git switch -c feature/minha-funcionalidade
+↓
+(codar)
+↓
+git add .
+↓
+git commit -m "feat: ..."
+↓
+git push -u origin feature/minha-funcionalidade
+↓
+Pull Request
