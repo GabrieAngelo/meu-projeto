@@ -2,3 +2,9 @@ gap :20px;
 ->dar um espaço entro objetos justify-content: center;
 ->alinha no centro justify-content: space-around;
 ->distribui o espaço de forma uniforme
+
+
+hover : quando o mouse passa por cima do objeto
+ transition: 0.3s; -> faz a transição de um estado para outro
+ trasnform: scale(1.1); -> aumenta o tamanho do objeto em 10% quando o mouse passa por cima
+ opacity: .0; -> deixa o objeto transparente quando o mouse passa por cima
