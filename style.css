@@ -14,10 +14,28 @@ p {
     background-color: rgb(97, 97, 97);
     padding: 20px;
 }
+
 .foto {
     width: 1000px;
     display: block;
     margin: 20px auto;
-   
 }
-     
+
+.foto:hover {
+    opacity: .0;
+    transition: 0.3s;
+}
+
+button {
+    background-color: red;
+    color: white;
+    padding: 15px;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: blue;
+    transform: scale(1.1);
+}

@@ -14,11 +14,6 @@ confirm("Você é maior de idade?");
     posso colocar let + a variavel para armazenar o valor retornado pelo 
     confirm EX: let Idade = confirm("Você é maior de idade?");
 
-    
-confirm("Você deseja sair?");
-    faz uma caixa de texto com a opção de "ok" ou "cancelar", e retorna
-    true ou false, dependendo da escolha do usuário  
-
 const PI = 3.14;
     cria uma constante, que não pode ser alterada depois de criada
     !(PI = 3.15;) não pode ser usado para mudar uma constante após já feita
