@@ -8,3 +8,13 @@ hover : quando o mouse passa por cima do objeto
  transition: 0.3s; -> faz a transição de um estado para outro
  trasnform: scale(1.1); -> aumenta o tamanho do objeto em 10% quando o mouse passa por cima
  opacity: .0; -> deixa o objeto transparente quando o mouse passa por cima
+
+id = identidade única do objeto (se chama com #nome do id)
+class = classe de vários objetos (se chama com .nome da classe)
+ 
+ ordem de prioridade
+  ID (#)
+      ↓
+  Class (.)
+      ↓
+  Tag (sem nada)

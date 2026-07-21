@@ -10,17 +10,38 @@
 
 <body>
 
-    <div id="caixa">
-        <p> Menu </p>
-        <p> logo </p>
-        <p> modelos </p>
+    <div class="barra">
+
+        <div class="menu">
+            <p> Menu </p>
+        </div>
+
+        <div class="logo">
+            <p> Logo </p>
+        </div>
+
+        <div class="modelos" onclick="abrirmenu()">
+            <p> Modelos </p>
+        </div>
+        <div id="menubar" class="menubar">
+            <button class="close" onclick="fecharmenu()">X</button>
+
+            <p class="motos"> XRE 190 </p>
+            <p class="motos"> XRE 300 </p>
+            <p class="motos"> CB 500 </p>
+            <p class="motos"> CB 1000 </p>
+            <p class="motos"> SAHARA 300</p>
+
+            <button class="botao"> teste </button>
+
+        </div>
+
     </div>
-    <div id="caixa2">
-        <button id="botao">Menu</button>
-        <img src="img/moto teste.PNG" alt="moto teste" class="foto">
+
+    <img src="img/moto teste.PNG" alt="moto teste" class="foto">
 
 
-        <script src="script.js"></script>
+    <script src="script.js"></script>
 
 </body>
 
