@@ -15,12 +15,6 @@ p {
     padding: 20px;
 }
 
-.foto {
-    width: 1000px;
-    display: block;
-    margin: 20px auto;
-}
-
 .foto:hover {
     transform: scale(1.1);
     transition: 0.5s;
@@ -120,4 +114,20 @@ p {
     background-color: rgb(148, 148, 148);
     border-radius: 20px;
     transition: 0.5s;
+}
+
+.teste {
+    background-image: url("img/moto teste.PNG");
+}
+
+.xre190 {
+    background-image: url("img/xre190.PNG");
+}
+
+.banner {
+    width: 900px;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-position: 360px;
+    background-size: cover
 }
