@@ -15,11 +15,6 @@ p {
     padding: 20px;
 }
 
-.foto:hover {
-    transform: scale(1.1);
-    transition: 0.5s;
-}
-
 .menu {
     width: 200px;
     height: 100px;
@@ -130,4 +125,9 @@ p {
     background-repeat: no-repeat;
     background-position: 360px;
     background-size: cover
+}
+
+.banner:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
 }
