@@ -8,7 +8,7 @@ p {
     color: rgb(255, 255, 255);
 }
 
-#caixa {
+#barra{
     display: flex;
     justify-content: space-around;
     background-color: rgb(97, 97, 97);
@@ -20,4 +20,70 @@ p {
     margin: 20px auto;
    
 }
-     
+.foto:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+    
+}     
+.menu{
+    width: 200px;
+    height: 100px;
+    background-color: rgb(97, 97, 97);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.menu:hover {
+    transform: scale(1.1);
+    background-color: rgb(148, 148, 148);
+    border-radius: 10px;
+    transition: 0.5s;
+    
+}
+.logo{
+    width: 200px;
+    height: 100px;
+    background-color: rgb(97, 97, 97);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.logo:hover {
+    transform: scale(1.1);
+    background-color: rgb(148, 148, 148);
+    border-radius: 10px;
+    transition: 0.5s;
+    
+}
+.modelos{
+    width: 200px;
+    height: 100px;
+    background-color: rgb(97, 97, 97);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.modelos:hover {
+    transform: scale(1.1);
+    background-color: rgb(148, 148, 148);
+    border-radius: 10px;
+    transition: 0.5s;
+    
+}
+.menubar {
+     position: fixed;
+    top: 0;
+    right: -300px; 
+    width: 250px;
+    height: 100vh;
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    transition: right 0.3s ease;
+}
+.menubar.open {
+    right: 0; 
+}
