@@ -31,10 +31,14 @@ const (variavel) = document.querySelector("class ou id ou tag");
    liga uma variavel a um elemento do html, seja ele class id ou tag
 
 (variavel.)elemento.addEventListener( evento,função);
+             
  adiciona um evento a uma variavel
    eventos mais usados
    click -> quando clica
    mouseenter -> quando passa o mouse
    mouseleave -> quando tira o mouse
    dblclick -> double click
-
+   
+const (img) =document.getElementById("foto")
+scr.foto = "img/moto teste"
+ colocar uma imagem pelo js

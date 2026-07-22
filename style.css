@@ -113,10 +113,19 @@ p {
 
 .teste {
     background-image: url("img/moto teste.PNG");
+    transition: 0.5s;
 }
 
 .xre190 {
     background-image: url("img/xre190.PNG");
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.xre300 {
+    background-image: url("img/xre300.PNG");
+    transform: scale(1.1);
+    transition: 0.5s;
 }
 
 .banner {
