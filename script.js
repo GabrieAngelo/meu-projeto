@@ -10,31 +10,44 @@ function fecharmenu() {
 }
 
 
-const motos = document.querySelector(".motos");
+const xre190 = document.querySelector("#xre190");
 
-motos.addEventListener("mouseenter", () => {
+xre190.addEventListener("mouseenter", () => {
     const banner = document.querySelector(".banner");
     banner.classList.remove("teste");
     banner.classList.add("xre190");
 });
-motos.addEventListener("mouseleave", () => {
+xre190.addEventListener("mouseleave", () => {
     const banner = document.querySelector(".banner");
-    banner.classList.remove("xre190");
     banner.classList.add("teste");
+    banner.classList.remove("xre190");
 
 });
 
 const xre300 = document.querySelector("#xre300")
 
 xre300.addEventListener("mouseenter", () => {
-    const banner = document.querySelector("banner")
+    const banner = document.querySelector(".banner")
     banner.classList.remove("teste");
     banner.classList.add("xre300");
 
 });
 xre300.addEventListener("mouseleave", () => {
-    const banner = document.querySelector("banner")
+    const banner = document.querySelector(".banner")
     banner.classList.remove("xre300");
     banner.classList.add("teste");
 
+});
+
+const cb500x = document.querySelector("#cb500x")
+
+cb500x.addEventListener("mouseenter", () => {
+    const banner = document.querySelector(".banner")
+    banner.classList.remove("teste");
+    banner.classList.add("cb500x");
+});
+cb500x.addEventListener("mouseleave", () => {
+    const banner = document.querySelector(".banner")
+    banner.classList.remove("cb500x");
+    banner.classList.add("teste");
 });

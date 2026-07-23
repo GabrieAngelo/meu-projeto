@@ -112,11 +112,12 @@ p {
 }
 
 .teste {
-    background-image: url("img/moto teste.PNG");
     transition: 0.5s;
+    background-image: url("img/moto teste.PNG");
 }
 
 .xre190 {
+    transition-delay: 5s;
     background-image: url("img/xre190.PNG");
     transform: scale(1.1);
     transition: 0.5s;
@@ -128,12 +129,16 @@ p {
     transition: 0.5s;
 }
 
+.cb500x {
+    background-image: url("img/cb500x.PNG");
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
 .banner {
-    width: 900px;
-    height: 500px;
+    width: 570px;
+    height: 380px;
     background-repeat: no-repeat;
-    background-position: 360px;
-    background-size: cover
 }
 
 .banner:hover {
